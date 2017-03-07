@@ -1,12 +1,12 @@
 <?php
 	$nom='Anthony <br>';
 
-	
+	//exo4
+	$string='texte';
+	$entier=5;
+	$boloean=true;
+	$float=10.25;
 
-	
-
-
-	
 
 ?>
 
@@ -58,17 +58,24 @@
 			</h5><br>
 			<h5>
 			<?php
-				$string='texte';
-				$entier=5;
-				$boloean=true;
-				$float=10.25;
-
-
 				echo $string .'<br>'. $entier .'<br>'. $boloean .'<br>'. $float;
 			?>
 			</h5>
 			<h5>
 				<?php
+				//exo5
+				$int;
+				echo $int;
+				$int=48;
+				echo $int;
+				?>
+			</h5>
+			<h5>
+				<?php
+
+
+
+				
 				?>
 			</h5>
 		</header>
