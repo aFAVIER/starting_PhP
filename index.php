@@ -18,8 +18,9 @@
 	<link rel="stylesheet" type="text/css" href="style/css/style.css">
 </head>
 <body>
+	<header></header>
 	<main class="container">
-		
+		<a href="variables.php"><h4>Variables</h4></a>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
