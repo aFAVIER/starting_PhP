@@ -1,5 +1,13 @@
 <?php
+	//exo1
 	$nom='Anthony <br>';
+
+	//exo2
+	$prenom='Patate';
+	$age= 30;
+
+	//exo3
+	$kilometre=1;
 
 	//exo4
 	$string='texte';
@@ -7,6 +15,8 @@
 	$boloean=true;
 	$float=10.25;
 
+	//exo5
+	$int;
 
 ?>
 
@@ -35,21 +45,22 @@
 		<header>
 			<h4>
 			<?php
-				echo $nom;
+				//exo1
+				echo $nom;	
+				//exo2
 				$nom='Robert';
-				$prenom='Patate';
-				$age= 30;
 				echo $nom.' '.$prenom.' '.$age;
 			?>
 			</h4>
 			<h5>
 			<?php
-				$kilometre=1;
+				//exo3
 				echo $kilometre;
 			?>
 			</h5><br>
 			<h5>
 			<?php
+				//exo4
 				$kilometre=3;
 				echo $kilometre;
 				$kilometre=125;
@@ -58,13 +69,12 @@
 			</h5><br>
 			<h5>
 			<?php
-				echo $string .'<br>'. $entier .'<br>'. $boloean .'<br>'. $float;
+				echo $string .'</br>'. $entier .'</br>'. $boloean .'</br>'. $float;
 			?>
 			</h5>
 			<h5>
 				<?php
 				//exo5
-				$int;
 				echo $int;
 				$int=48;
 				echo $int;
@@ -72,6 +82,7 @@
 			</h5>
 			<h5>
 				<?php
+					//exo6
 					$nom='Emilie';
 					echo 'bonjour '.$nom.', comment vas-tu?';
 

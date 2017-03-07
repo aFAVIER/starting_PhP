@@ -1,6 +1,8 @@
 $color_h5:#fff;
+$h5_background:#00b3e0;
 $color:lime;
 $border:#fff;
+
 
 body{
 	background-image:url('http://st.gde-fon.com/wallpapers_original/314229_opaque_-minimal-art_-minimalism_1920x1080_www.Gde-Fon.com.jpg');	
@@ -17,6 +19,7 @@ body{
 		border: 1px solid $border;
 		padding: 10px;
 		border-radius: 10px;
+		//background-color:$h5_background;
 	}
 
 
