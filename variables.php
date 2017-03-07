@@ -16,7 +16,7 @@
 	$float=10.25;
 
 	//exo5
-	$int;
+	
 
 ?>
 
@@ -75,7 +75,8 @@
 			<h5>
 				<?php
 				//exo5
-				echo $int;
+				$int=(int)NULL;
+				echo $int.'</br>';
 				$int=48;
 				echo $int;
 				?>
@@ -104,6 +105,10 @@
 				$multi=5*20;
 				$divi=45/5;
 				echo 'le résultat de 3+4 est '.$add.', le résultat de 5x20 est '.$multi.', le résultat de 45/5 est '.$divi;
+				?>
+			</h5>
+			<h5>
+				<?php
 				?>
 			</h5>
 		</header>
