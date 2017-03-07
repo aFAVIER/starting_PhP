@@ -1,3 +1,11 @@
+<?php
+	//exo1
+	$age=30;
+	//exo2
+	$is_easy=true;
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,8 +28,36 @@
 <body>
 	<header></header>
 	<main class="container">
-		<a href="variables.php"><h4>Exercice 1</h4></a>
-		<a href="conditions.php"><h4>Exercice 2</h4></a>
+ 		<h5>
+ 		<?php
+			//exo1
+			if ($age>=18)
+				echo 'vous êtes majeur';
+			else
+				echo 'vous êtes mineur';
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo2
+			if($is_easy=true)
+				echo 'c\'est facile';
+			else 
+				echo 'c\'est difficile'
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo3
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo4
+
+ 		?>
+ 		</h5>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
