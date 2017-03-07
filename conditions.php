@@ -3,6 +3,9 @@
 	$age=30;
 	//exo2
 	$is_easy=true;
+	//exo3
+	$age=15;	
+ 	$genre='femme';
 ?>
 
 
@@ -43,13 +46,20 @@
 			if($is_easy=true)
 				echo 'c\'est facile';
 			else 
-				echo 'c\'est difficile'
+				echo 'c\'est difficile';
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo3
-
+ 			
+	 			if($genre=='homme')
+	 				if ($age>=18) echo 'vous êtes un homme majeur';
+	 				else echo 'vous êtes un homme mineur';
+	 			else if($genre=='femme')
+	 				if($age>=18) echo 'vous êtes une femme majeure';
+	 				else echo 'vous êtes une femme mineure';
+	 			else echo 'renseignez par homme ou femme';
  		?>
  		</h5>
  		<h5>
