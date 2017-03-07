@@ -88,6 +88,18 @@
 
 				?>
 			</h5>
+			<h5>
+				<?php
+				$nom='TUC';
+				$prenom='Alain';
+				$age=30;
+				echo 'Bonjour '.$nom.' '.$prenom.', tu as '.$age.' ans.';
+				?>
+			</h5>
+			<h5>
+				<?php
+				?>
+			</h5>
 		</header>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
