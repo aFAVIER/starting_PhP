@@ -9,13 +9,13 @@
  	//exo4
  	$magnetude=10;
  	//exo5
-
+ 	$maVariable='Homme';
  	//exo6
-
+ 	$maVariable1=true;
  	//exo7
-
+ 	$monAge =15;
  	//exo8
-
+ 	$maVariable2=true;
 
 
 ?>
@@ -112,29 +112,43 @@
  		?>
  		</h5>
  		<h5>
- 		<?php
-			//exo5
-
+			<!--exo5-->
+				<p> 		Traduire ce code avec des if et des else :
+					‘‘‘
+						<?php
+						 echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
+						?>‘‘‘</p>
+			<?php
+				if ($maVariable!='Homme') 
+					echo 'C\'est une développeuse !!!';
+				else echo  'C\'est un développeur !!!';
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo6
+ 			if($maVariable1==false) echo 'c\'est pas bon !!!';
+ 			else echo 'c\'est ok !!';
 
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo7
-
+ 			if ($monAge>=18) echo "tu es majeur";
+ 			else echo "Tu n'es pas majeur";
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo8
-
+ 			if($maVariable2==true) echo  'c\'est ok !!';
+ 			else echo  'c\'est pas bon !!!';
  		?>
  		</h5>
+	
+
+
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
