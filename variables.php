@@ -72,10 +72,9 @@
 			</h5>
 			<h5>
 				<?php
+					$nom='Emilie';
+					echo 'bonjour '.$nom.', comment vas-tu?';
 
-
-
-				
 				?>
 			</h5>
 		</header>
