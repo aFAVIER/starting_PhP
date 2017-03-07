@@ -20,7 +20,7 @@
 <body>
 	<header></header>
 	<main class="container">
-		<a href="variables.php"><h4>Variables</h4></a>
+		<a href="variables.php"><h4>Exercice 1</h4></a>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
