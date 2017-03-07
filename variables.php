@@ -57,16 +57,16 @@
 				//exo3
 				echo $kilometre;
 			?>
-			</h5><br>
+			</h5>
 			<h5>
 			<?php
 				//exo4
 				$kilometre=3;
-				echo $kilometre;
+				echo $kilometre.' ';
 				$kilometre=125;
 				echo $kilometre;
 			?>
-			</h5><br>
+			</h5>
 			<h5>
 			<?php
 				echo $string .'</br>'. $entier .'</br>'. $boloean .'</br>'. $float;
@@ -90,6 +90,7 @@
 			</h5>
 			<h5>
 				<?php
+				//exo7
 				$nom='TUC';
 				$prenom='Alain';
 				$age=30;
@@ -98,6 +99,11 @@
 			</h5>
 			<h5>
 				<?php
+				//exo8
+				$add=3+4;
+				$multi=5*20;
+				$divi=45/5;
+				echo 'le résultat de 3+4 est '.$add.', le résultat de 5x20 est '.$multi.', le résultat de 45/5 est '.$divi;
 				?>
 			</h5>
 		</header>
