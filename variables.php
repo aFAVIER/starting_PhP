@@ -8,7 +8,8 @@
 
 	//exo3
 	$kilometre=1;
-
+	$kilometre2=3;
+	$kilometre1=125;
 	//exo4
 	$string='texte';
 	$entier=5;
@@ -17,7 +18,16 @@
 
 	//exo5
 	
-
+	//exo6
+	$nom6='Emilie';
+	//exo7
+	$nom7='TUC';
+	$prenom7='Alain';
+	$age7=30;
+	//exo8
+	$add=3+4;
+	$multi=5*20;
+	$divi=45/5;
 ?>
 
 <!DOCTYPE html>
@@ -61,10 +71,8 @@
 			<h5>
 			<?php
 				//exo4
-				$kilometre=3;
-				echo $kilometre.' ';
-				$kilometre=125;
-				echo $kilometre;
+				echo $kilometre2.' ';
+				echo $kilometre1;
 			?>
 			</h5>
 			<h5>
@@ -84,26 +92,18 @@
 			<h5>
 				<?php
 					//exo6
-					$nom='Emilie';
-					echo 'bonjour '.$nom.', comment vas-tu?';
-
+					echo 'bonjour '.$nom6.', comment vas-tu?';
 				?>
 			</h5>
 			<h5>
 				<?php
 				//exo7
-				$nom='TUC';
-				$prenom='Alain';
-				$age=30;
-				echo 'Bonjour '.$nom.' '.$prenom.', tu as '.$age.' ans.';
+				echo 'Bonjour '.$nom7.' '.$prenom7.', tu as '.$age7.' ans.';
 				?>
 			</h5>
 			<h5>
 				<?php
 				//exo8
-				$add=3+4;
-				$multi=5*20;
-				$divi=45/5;
 				echo 'le résultat de 3+4 est '.$add.', le résultat de 5x20 est '.$multi.', le résultat de 45/5 est '.$divi;
 				?>
 			</h5>
