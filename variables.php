@@ -33,19 +33,44 @@
 	<header></header>
 	<main class="container">
 		<header>
-		<?php
-			echo $nom;
-			$nom='Robert';
-			$prenom='Patate';
-			$age= 30;
-			echo $nom.' '.$prenom.' '.$age.'.';
-			$kilometre=1;
-			echo $kilometre;
-			$kilometre=3;
-			echo $kilometre;
-			$kilometre=125;
-			echo $kilometre;
-		?>
+			<h4>
+			<?php
+				echo $nom;
+				$nom='Robert';
+				$prenom='Patate';
+				$age= 30;
+				echo $nom.' '.$prenom.' '.$age;
+			?>
+			</h4>
+			<h5>
+			<?php
+				$kilometre=1;
+				echo $kilometre;
+			?>
+			</h5><br>
+			<h5>
+			<?php
+				$kilometre=3;
+				echo $kilometre;
+				$kilometre=125;
+				echo $kilometre;
+			?>
+			</h5><br>
+			<h5>
+			<?php
+				$string='texte';
+				$entier=5;
+				$boloean=true;
+				$float=10.25;
+
+
+				echo $string .'<br>'. $entier .'<br>'. $boloean .'<br>'. $float;
+			?>
+			</h5>
+			<h5>
+				<?php
+				?>
+			</h5>
 		</header>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
