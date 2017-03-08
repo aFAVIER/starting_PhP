@@ -30,12 +30,18 @@
  		return 'bonjour '.$nom.' '.$prenom.', tu as '.$age.' ans.';
  	};
  	//exo7
- 	function exo7(){
-
+ 	function exo7($genre, $age){
+ 		if($genre=='homme')
+	 				if ($age>=18) echo 'vous êtes un homme majeur';
+	 				else echo 'vous êtes un homme mineur';
+	 			else if($genre=='femme')
+	 				if($age>=18) echo 'vous êtes une femme majeure';
+	 				else echo 'vous êtes une femme mineure';
+	 			else echo 'renseignez par homme ou femme';
  	};
  	//exo8
- 	function exo8(){
-
+ 	function exo8($g=2,$h=2,$j=2){
+ 		return $g+$h+$j;
  	};
 
 
@@ -104,13 +110,14 @@
  		<h5>
  		<?php
 			//exo7
- 			
+ 			echo exo7('homme', 45);
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo8
- 			
+ 			echo exo8();
+
  		?>
  		</h5>
 	
