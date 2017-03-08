@@ -1,25 +1,7 @@
 <?php
-	//exo1
-
-	//exo2
-	
-	//exo3
-	
- 	//exo4
- 	
- 	//exo5
- 
- 	//exo6
- 	
- 	//exo7
- 	
- 	//exo8
- 	
 
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -29,7 +11,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title></title>
 	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="style/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../style/css/bootstrap.css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -37,76 +19,22 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 				<!--Mon fichier css pour quelques modif-->
-	<link rel="stylesheet" type="text/css" href="style/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/css/style.css">
 </head>
 <body>
 	<header></header>
 	<main class="container">
- 		<h5>
- 		<?php
-			//exo1
-
-			
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo2
-
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo3
-
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo4
-
- 		?>
- 		</h5>
- 		<h5>
-			<!--exo5-->
-				
-			<?php
-
-				
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo6
-
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo7
-
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo8
-
- 		?>
- 		</h5>
- 		<h5>
+		<h5>
 		<?php
-			//exo9
-
- 		?>
- 		</h5>
- 		<h5>
- 		<?php
-			//exo10
- 
- 		?>
- 		</h5>
-
-
+		if (ISSET($_GET['nom'])&&(ISSET($_GET['prenom']))) {
+		
+			echo $_GET['nom'].' ';
+			echo $_GET['prenom'];
+		}
+		?>
+		</h5>	
+	<button class="btn btn-success"><strong><a href="../parametres.php">retour</a></strong></button>
+	<button class="btn btn-success"><strong><a href="../index.php">Menu</a></strong></button>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>

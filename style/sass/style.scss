@@ -21,7 +21,15 @@ body{
 		border-radius: 10px;
 		//background-color:$h5_background;
 	}
-
+	form{
+		legend{
+			color:$color_h5;
+		}
+	}
+	h1{
+		color:$color_h5;
+		background-color:$color;
+	}
 
 
 

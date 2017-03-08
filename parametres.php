@@ -1,3 +1,9 @@
+<?php
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,13 +26,77 @@
 <body>
 	<header></header>
 	<main class="container">
-		<a href="variables.php"><h4>Exercice 1</h4></a>
-		<a href="conditions.php"><h4>Exercice 2</h4></a>
-		<a href="boucle.php"><h4>Exercice 3</h4></a>
-		<a href="function.php"><h4>Exercice4</h4></a>
-		<a href="tableau.php"><h4>Exercice5</h4></a>
-		<a href="parametres.php"><h4>Exercice6</h4></a>
-		<a href="formulaire.php"><h4>Exercice7</h4></a>
+ 		<h5>
+ 		<a href="parametre/exercice1.php?nom=Nemare&prenom=Jean">lien exercice 1</a>
+ 		<?php
+			
+
+			
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<a href="parametre/exercice2.php?nom=Nemare&prenom=Jean">lien exercice 2</a>
+ 		<?php
+			//exo2
+
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<a href="parametre/exercice3.php?dateDebut=2/05/2016&dateFin=27/11/2016">lien exercice 3</a>
+ 		<?php
+			//exo3
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<a href="parametre/exercice4.php?langage=PHP&serveur=LAMP">lien exercice 4</a>
+ 		<?php
+			//exo4
+
+ 		?>
+ 		</h5>
+ 		<h5>
+			<!--exo5-->
+			<a href="parametre/exercice5.php?semaine=12">lien exercice 5</a>
+			<?php
+
+				
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<a href="parametre/exercice6.php?batiment=<script>alert(‘lol’)</script>&salle=101">lien exercice 6</a>
+ 		<?php
+			//exo6
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo7
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo8
+
+ 		?>
+ 		</h5>
+ 		<h5>
+		<?php
+			//exo9
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo10
+ 
+ 		?>
+ 		</h5>
+	<button class="btn btn-success"><strong><a href="index.php">Menu</a></strong></button>
+
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
