@@ -1,8 +1,9 @@
 <?php
 	//exo1
-	
+	$exo1=0;
 	//exo2
-	
+	$exo2=0;
+	$exo2_1=12;
 	//exo3
 	
  	//exo4
@@ -43,25 +44,33 @@
  		<h5>
  		<?php
 			//exo1
-			
+			while($exo1<=10)
+			echo $exo1++.'</br>';
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo2
-			
+ 			if (0<=$exo2_1<=100) {
+ 				
+ 				
+ 				
+ 			}else
+			echo "rentrer un nombre entre 0 et 100";
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo3
- 			
+
+ 			echo "";
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo4
 
+ 			echo "";
  			
  		?>
  		</h5>
@@ -69,26 +78,30 @@
 			<!--exo5-->
 				
 			<?php
-				
+
+			echo "";	
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo6
- 			
+
+ 			echo "";
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo7
- 			
+
+ 			echo "";
  			
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo8
- 			
+
+ 			echo "";
  		?>
  		</h5>
 	</main>
