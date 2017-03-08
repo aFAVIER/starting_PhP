@@ -118,7 +118,8 @@
  		<h5>
  		<?php
 			//exo10
- 			
+ 			foreach ($Haut2france as $key => $value) {
+				echo 'Le département '.$value.' à pour numéro de département '.$key.'.</br> ';}
  		?>
  		</h5>
 
