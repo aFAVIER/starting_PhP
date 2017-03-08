@@ -1,22 +1,42 @@
 <?php
 	//exo1
 	function exo1(){
-		echo 'true';
+		return 'true';
 	};
 	//exo2
-	
+	function exo2($e){
+		return $e;
+	};
 	//exo3
-	
+	function exo3($a,$b){
+		return $a.$b;
+	};
  	//exo4
- 	
+ 	function exo4($c,$d){
+ 		if ($c<$d) {
+ 			return 'le premier est le plus petit ';
+ 		}
+ 		else if ($c>$d){
+ 			return ' le premier est le plus grand';
+ 		}
+ 		else{ return 'Les 2 nombre sont égaux';}
+ 	};
  	//exo5
- 	
+ 	function exo5($e=2,$f=''){
+ 		return $e.$f;
+ 	};
  	//exo6
- 	
+ 	function exo6($nom='', $prenom='', $age=12){
+ 		return 'bonjour '.$nom.' '.$prenom.', tu as '.$age.' ans.';
+ 	};
  	//exo7
- 	
+ 	function exo7(){
+
+ 	};
  	//exo8
- 	
+ 	function exo8(){
+
+ 	};
 
 
 ?>
@@ -47,37 +67,38 @@
  		<h5>
  		<?php
 			//exo1
-			exo1();
+			echo exo1();
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo2
-			
+			echo exo2('fini aussi');
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo3
- 			
+ 			echo exo3('test', 'prout');
 	 			
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo4
-
+ 			echo exo4(4,4);
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo5
+ 		echo exo5(5,' test');
 	 		?>
  		</h5>
  		<h5>
  		<?php
 			//exo6
- 		
+ 		echo exo6('IOU', 'aghj', 45);
  		?>
  		</h5>
  		<h5>
