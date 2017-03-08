@@ -1,3 +1,25 @@
+<?php
+	//exo1
+	$tab_moi= array('janvier','fevrier','mars', 'avril', 'mai','juin', 'juillet','aout','septembre','octobre','novembre','decembre');
+	//exo2
+	
+	//exo3
+	
+ 	//exo4
+ 	
+ 	//exo5
+ 	$Haut2france=array(02=>'Aisne', 59=>'Nord',60=>'Oise', 62=>'Pas_de_Calais', 80=>'Somme');
+ 	//exo6
+ 	
+ 	//exo7
+ 	
+ 	//exo8
+ 	
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,11 +42,79 @@
 <body>
 	<header></header>
 	<main class="container">
-		<a href="variables.php"><h4>Exercice 1</h4></a>
-		<a href="conditions.php"><h4>Exercice 2</h4></a>
-		<a href="boucle.php"><h4>Exercice 3</h4></a>
-		<a href="function.php"><h4>Exercice4</h4></a>
-		<a href="tableau.php"><h4>Exercice5</h4></a>
+ 		<h5>
+ 		<?php
+			//exo1
+			foreach ($tab_moi as $value) {
+				echo $value.' ';
+			}
+				
+			
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo2
+			echo $tab_moi[3];
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo3
+ 			echo $tab_moi[6];
+	 		
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo4
+ 		$tab_moi[3]='Julien';
+ 		echo $tab_moi[3];
+ 			
+ 		?>
+ 		</h5>
+ 		<h5>
+			<!--exo5-->
+				
+			<?php
+
+			foreach ($Haut2france as $key => $value) {
+				echo $value.$key.' ';
+			}
+				
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo6
+ 			echo $Haut2france[59];
+
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo7
+ 			
+ 		?>
+ 		</h5>
+ 		<h5>
+ 		<?php
+			//exo8
+ 			
+ 		?>
+ 		</h5>
+		<?php
+			//exo9
+ 			
+ 		?>
+ 		</h5>
+ 		<?php
+			//exo10
+ 			
+ 		?>
+ 		</h5>
+
+
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
