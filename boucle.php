@@ -15,11 +15,11 @@
  	//exo5
  	$exo5=0;
  	//exo6
- 	
+ 	$exo6=0;
  	//exo7
- 	
+ 	$exo7=0;
  	//exo8
- 
+ 	$exo8=0;
 ?>
 
 
@@ -74,40 +74,46 @@
  		<h5>
  		<?php
 			//exo4
- 	while ($exo4<=10) {
+ /*			while ($exo4<=10) {
  		 echo $exo4.'</br>';
  		 $exo4=$exo4+($exo4/2);
- }
+ }*/
  		?>
  		</h5>
  		<h5>
 			<!--exo5-->	
 			<?php
-			for ($exo5=1; $exo5 <=15 ; $exo5++) { 
+/*			for ($exo5=1; $exo5 <=15 ; $exo5++) { 
 				echo "on y arrive presque.</br>";
-			}	
+			}	*/
  		?>
  		</h5>
  		<h5>
  		<?php
-			//exo6
-
- 			echo "";
+/*			//exo6
+ 		for ($exo6=20; $exo6 >=0 ; $exo6--) { 
+ 			echo "c'est presque bon.</br>";
+ 		}
+ */			
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo7
-
- 			echo "";
+ 		for ($exo7=1; $exo7 <=100 ; $exo7+=15) { 
+ 			echo "on tient le bon bout!.</br>";
+ 		}
+ 		
  			
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo8
-
- 			echo "";
+ 		for ($exo8=200; $exo8 >=0 ; $exo8-=12) { 
+ 			echo "test.</br>";
+ 		}
+ 		
  		?>
  		</h5>
 	</main>
