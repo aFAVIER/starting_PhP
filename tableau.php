@@ -94,20 +94,28 @@
  		<h5>
  		<?php
 			//exo7
- 			
+ 			$Haut2france+=array(51=>'Marne');
+ 			foreach ($Haut2france as $key => $value) {
+				echo $value.$key.' ';
+			}
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo8
- 			
+ 			foreach ($tab_moi as $value) {
+				echo $value.' ';
+			}
  		?>
  		</h5>
+ 		<h5>
 		<?php
 			//exo9
- 			
+ 			foreach ($Haut2france as $key => $value) {
+				echo $value.$key.' ';}
  		?>
  		</h5>
+ 		<h5>
  		<?php
 			//exo10
  			
