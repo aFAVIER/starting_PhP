@@ -3,16 +3,17 @@
 	$exo1=0;
 	//exo2
 	$exo2=0;
-	$exo2_1=12;
+	$exo2_1=5;
 	$resultat2=0;
 	//exo3
 	$exo3=100;
-	$exo3_1=5;
+	$exo3_1=2;
 
  	//exo4
- 	
+ 	$exo4=1;
+ 	$exo4_1=0;
  	//exo5
- 	
+ 	$exo5=0;
  	//exo6
  	
  	//exo7
@@ -47,43 +48,44 @@
  		<h5>
  		<?php
 			//exo1
-			while($exo1<=10)
+	/*		while($exo1<=10)
 			echo $exo1++.'</br>';
- 		?>
+ 	*/	?>
  		</h5>
  		<h5>
  		<?php
 			//exo2
- 				while ($exo2<=20){
+ /*				while ($exo2<=20){
  					echo $resultat2=$exo2*$exo2_1.'</br>';
  					$exo2++;
  				}
-
+*/
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo3
- 		while ($exo3 >= 10) {
+ /*		while ($exo3 >= 10) {
  			echo $exo3--*$exo3_1.'</br>';
  		}
- 		
+ 		*/
  		?>
  		</h5>
  		<h5>
  		<?php
 			//exo4
-
- 			echo "";
- 			
+ 	while ($exo4<=10) {
+ 		 echo $exo4.'</br>';
+ 		 $exo4=$exo4+($exo4/2);
+ }
  		?>
  		</h5>
  		<h5>
-			<!--exo5-->
-				
+			<!--exo5-->	
 			<?php
-
-			echo "";	
+			for ($exo5=1; $exo5 <=15 ; $exo5++) { 
+				echo "on y arrive presque.</br>";
+			}	
  		?>
  		</h5>
  		<h5>
