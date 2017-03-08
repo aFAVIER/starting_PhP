@@ -4,6 +4,7 @@
 	//exo2
 	$exo2=0;
 	$exo2_1=12;
+	$resultat2=0;
 	//exo3
 	
  	//exo4
@@ -51,12 +52,11 @@
  		<h5>
  		<?php
 			//exo2
- 			if (0<=$exo2_1<=100) {
- 				
- 				
- 				
- 			}else
-			echo "rentrer un nombre entre 0 et 100";
+ 				while ($exo2<=20){
+ 					echo $resultat2=$exo2*$exo2_1.'</br>';
+ 					$exo2++;
+ 				}
+
  		?>
  		</h5>
  		<h5>
