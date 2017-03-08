@@ -6,7 +6,9 @@
 	$exo2_1=12;
 	$resultat2=0;
 	//exo3
-	
+	$exo3=100;
+	$exo3_1=5;
+
  	//exo4
  	
  	//exo5
@@ -62,8 +64,10 @@
  		<h5>
  		<?php
 			//exo3
-
- 			echo "";
+ 		while ($exo3 >= 10) {
+ 			echo $exo3--*$exo3_1.'</br>';
+ 		}
+ 		
  		?>
  		</h5>
  		<h5>
