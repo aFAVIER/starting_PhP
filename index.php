@@ -23,6 +23,7 @@
 		<a href="variables.php"><h4>Exercice 1</h4></a>
 		<a href="conditions.php"><h4>Exercice 2</h4></a>
 		<a href="boucle.php"><h4>Exercice 3</h4></a>
+		<a href="function.php"><h4>Exercice4</h4></a>
 	</main>
 	<script type="text/javascript" src='js/jquery-3.1.1.slim.js'></script>
 	<script type="text/javascript" src='js/parallax.min.js'></script>
